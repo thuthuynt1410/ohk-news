@@ -13,6 +13,7 @@ export default function Home() {
                 alt="OHK 8Ch"
                 width={135}
                 height={58}
+                priority
               />
             </a>
           </h1>
@@ -63,7 +64,7 @@ export default function Home() {
               <li>
                 <a href="https://twitter.com/tv_ohk" target="_blank">
                   <Image
-                    className=""
+                    className="tw_img"
                     src="/img/common/icon_h_twitter.png"
                     alt="TW"
                     width={24}
@@ -204,7 +205,6 @@ export default function Home() {
           alt="Next.js logo"
           width={180}
           height={38}
-          priority
         />
         <p>Ohk-products</p>
       </main>

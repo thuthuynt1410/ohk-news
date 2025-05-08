@@ -97,8 +97,6 @@ body {
 }
 
 .header__nav-pc li a img {
-  width: auto;
-  height: 23px;
   display: block;
   margin: 0 auto 5px;
 }
@@ -107,4 +105,9 @@ body {
   display: inline-block;
   border-right: 1px solid #fff;
   width: 100%;
+}
+
+.tw_img {
+  height: auto;
+  width: auto;
 }
