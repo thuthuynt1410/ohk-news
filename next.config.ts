@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
     serverActions: {
-      allowedOrigins: ['https://ohk-product.g.kuroco.app'],
+      allowedOrigins: ['https://ohk-products.g.kuroco-front.app/'],
     },
   },
 };
